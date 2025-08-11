@@ -1,0 +1,16 @@
+to run this script, do the following:
+
+python -m venv venv && source venv/bin/activate
+
+NOTE!!!
+If you are using anything other than bash this won't work
+run the appropriate "activate" for your shell - for fish it is:
+python -m venv venv && source venv/bin/activate.fish
+
+Then, once you are in the venv, run this:
+pip install -r requirements.txt
+
+Then you should be good to run the script:
+python gamevault-lister-python.py
+
+
