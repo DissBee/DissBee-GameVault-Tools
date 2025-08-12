@@ -3,17 +3,22 @@
 #prob dont need this actually but whatever
 set -euo pipefail
 
-#Variables to Change as needed
+#Config file path
 CONFIG_FILE="./gamevault_config.json"
+
+# server API path (change localhost to your server IP as needed)
 API_BASE="http://localhost:8080/api"
+#dont touch these unless you know what you're doing
 AUTH_BASIC_LOGIN="$API_BASE/auth/basic/login"
 USER_ME="$API_BASE/users/me"
 GAMES_ENDPOINT="$API_BASE/games"
 
+# File paths - adjust as needed
 CURRENT_LIST="./current-list.txt"
 NEW_LIST="./new-list.txt"
 CHANGELOG="./changelog.log"
 
+#Discord info - adjust as needed
 DISCORD_HOOK_URL="webhook URL goes here"
 DISCORD_ROLE_ID="<@&roleNumber>"  # Replace with the role/user ID you want to @ in the message (make this a blank string for no @)
 
