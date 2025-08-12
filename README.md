@@ -7,15 +7,17 @@ GameVault Website: https://gamevau.lt/
 # What's in this repo?
 
 PowerShell Scripts (Windows Systems):
-* Old stuff that shouldn't be used - will be replaced with new stuff soon!
+* Old Discord webhook notifier script - janky but it works - will rewrite to use API soon!
 
 Python Scripts (Cross Platform):
 * GameListerGUI - GUI tool to list/download games from your server (very basic)
-* Old stuff that shouldn't be used - will be replaced with new stuff soon!
+* Old Discord webhook notifier script - janky but it works - will rewrite to use API soon!
 
 Bash Scripts (Linux Systems):
 * Discord Notifier CLI tool - uses bot user to send Discord webhook messages with list of added/removed/updated games!
-* OLD Stuff that shouldn't be used anymore - will replace with new stuff soon!
+* Old Discord webhook notifier script - don't use this. Use the new version instead; It is MUCH better!
+
+More coming soon!!
 
 ****
 # How do you use these?
